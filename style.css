@@ -1,3 +1,98 @@
-body{
-    background-color: white;
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body,html{
+    font-family: 'Indie Flower', cursive;
+    padding: 0;
+    margin: 0;
 }
+
+h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+
+}
+.hero-banner{
+    background-color: #18B426;
+    height: 100vh;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.hero-banner h1{
+    color: white;
+    margin: 14px 0 20px;
+}
+.hero-banner h3{
+    color: white;
+    margin: 0 0 35px;
+}
+.hero-banner h4,
+.hero-banner h4 a{
+    color: white;
+    margin: 0;
+}
+.pig-character{
+    background: url(img/pig\ trans.png) no-repeat 0 0;
+    background-size: 100%;
+    width: 363px;
+    height: 344px;
+    position: absolute; top: 117px; right: 89px;
+}
+.dog-character{
+    background: url(img/dog\ character.jpg) no-repeat 0 0;
+    background-size: 100%;
+    width: 309px;
+    height: 371px;
+    position: absolute; top: 213px; right: 227px;
+}
+.mouse-character{
+    background: url(img/mouse\ character.jpg) no-repeat 0 0;
+    background-size: 100%;
+    width: 297px;
+    height: 286px;
+    position: absolute; bottom: 74px; right: 109px;
+}
+
+a.cta,
+button.cta{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #18B426;
+    display: inline-block;
+    box-shadow: 0 0 0 10px rgba(0,127,255,.25);
+    padding: 20px, 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a.cta.alt,
+button.cta.alt{
+    background-color: #DC5C03;
+    color: #111111; 
+    box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+}
+/*
+<div class="hero-banner">
+        <div class="wrapper">
+           <h4><a href="https://www.linkedin.com/in/phuong-ngo-6b8098126/">Phuong Ngo</a>presents</h4> 
+           <h1>The Cutest and<br/>
+             Most Amazing Friends</h1>
+            <h3>Milly, Curly and Tweenie.<br/>
+            They're the best of friends.</h3>
+            <a class="cta alt" href="#more-info">Read More</button>
+        </div>
+        <div class="pig-character"></div>
+        <div class="mouse-character"></div>
+        <div class="dog-character"></div>
+    </div>
+    */
