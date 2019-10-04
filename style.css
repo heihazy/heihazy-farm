@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
 body,html{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Cabin', sans-serif;
     padding: 0;
     margin: 0;
 }
 
 h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+h2{
     font-weight: 800;
     font-size: 50px;
 }
@@ -20,7 +24,6 @@ h4{
 .wrapper{
     width: 960px;
     margin: 0 auto;
-
 }
 .hero-banner{
     background-color: #18B426;
@@ -56,14 +59,14 @@ h4{
     background-size: 100%;
     width: 309px;
     height: 371px;
-    position: absolute; top: 250px; right: 300px;
+    position: absolute; top: 200px; right: 300px;
 }
 .mouse-character{
     background: url(img/mouse\ trans.png) no-repeat 0 0;
     background-size: 100%;
     width: 296px;
     height: 378px;
-    position: absolute; bottom: 100px; right: 109px;
+    position: absolute; bottom: 85px; right: 109px;
 }
 
 a.cta,
@@ -84,18 +87,63 @@ button.cta.alt{
     color: #111111; 
     box-shadow: 0 0 0 10px rgba(0,0,0,.15);
 }
+
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,.2);
+    position: sticky;
+    top: 0;
+}
+nav.logo{
+    display: block;
+    position: absolute; top: 50%; left: 30;
+    margin-top: -20px;
+    background: url(img/Heihazy\ Farm\ newest.png) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+nav ul{
+    padding: 0;
+    margin: -110px 20px 0 0;
+
+}
+nav ul li{
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+
+.more-info{
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+
+}
+
 /*
-<div class="hero-banner">
-        <div class="wrapper">
-           <h4><a href="https://www.linkedin.com/in/phuong-ngo-6b8098126/">Phuong Ngo</a>presents</h4> 
-           <h1>The Cutest and<br/>
-             Most Amazing Friends</h1>
-            <h3>Milly, Curly and Tweenie.<br/>
-            They're the best of friends.</h3>
-            <a class="cta alt" href="#more-info">Read More</button>
-        </div>
-        <div class="pig-character"></div>
-        <div class="mouse-character"></div>
-        <div class="dog-character"></div>
+<div class="more-info" id="more-info">
+        <h2>Join Our Farm Community</h2>
+        <p>Every Friday we have <span class="highlight">a gathering</span>to exhange goods and socialize. If you are interested, please do not hesitate to join our community. The gathering is free of charge and super duper fun.</p>
+        <button class="cta">Sign Me Up</button>
     </div>
     */
+    
