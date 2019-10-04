@@ -24,9 +24,11 @@ h4{
 }
 .hero-banner{
     background-color: #18B426;
-    height: 100vh;
+    min-height: 80vh;
     padding: 50px 20px;
     box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
 }
 .hero-banner h1{
     color: white;
@@ -44,23 +46,24 @@ h4{
 .pig-character{
     background: url(img/pig\ trans.png) no-repeat 0 0;
     background-size: 100%;
-    width: 363px;
-    height: 344px;
-    position: absolute; top: 117px; right: 89px;
+    width: 269px;
+    height: 359px;
+    position: absolute; top: 117px; right: 250px;
+    transform: rotate(-15deg);
 }
 .dog-character{
-    background: url(img/dog\ character.jpg) no-repeat 0 0;
+    background: url(img/dog\ trans.png) no-repeat 0 0;
     background-size: 100%;
     width: 309px;
     height: 371px;
-    position: absolute; top: 213px; right: 227px;
+    position: absolute; top: 250px; right: 300px;
 }
 .mouse-character{
-    background: url(img/mouse\ character.jpg) no-repeat 0 0;
+    background: url(img/mouse\ trans.png) no-repeat 0 0;
     background-size: 100%;
-    width: 297px;
-    height: 286px;
-    position: absolute; bottom: 74px; right: 109px;
+    width: 296px;
+    height: 378px;
+    position: absolute; bottom: 100px; right: 109px;
 }
 
 a.cta,
