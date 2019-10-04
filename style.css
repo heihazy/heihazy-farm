@@ -153,11 +153,61 @@ p{
     font-weight: 800;
 }
 
+.sep{
+    height:1px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background:#717171;
+    
+    border-bottom:1px solid #313030;
+}
+.story h3{
+    font-size: 40px;
+}
+.nb-list{
+    width: 470px;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+    background-color: #ccd1d1;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.nb-list li{
+    height: 70px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+}
+.nb-list li.red{background-color: #c63c40}
+.nb-list li.pink{background-color: #f45388}
+.nb-list li.blue{
+    background-color: #0171b0;
+    color: black
+}
+.nb-list li.yellow{
+    background-color: #f1c408;
+    color: black;
+}
 /*
-<div class="more-info" id="more-info">
-        <h2>Join Our Farm Community</h2>
-        <p>Every Friday we have <span class="highlight">a gathering</span>to exhange goods and socialize. If you are interested, please do not hesitate to join our community. The gathering is free of charge and super duper fun.</p>
-        <button class="cta">Sign Me Up</button>
-    </div>
+<div class="sep"></div>
+    <div class="story" id="story"></div>
+        <ul class="nb-list">
+            <li class="pink">Laughters</li>
+            <li class="blue">Creativity</li>
+            <li class="red">Free spirits</li>
+            <li class="yellow">Friendship</li>
+        </ul>
+        <h3>Left: Our special features</br>
+        Below: Our Story</h3>
+        <p>In a far far away unknown land, there was no one else but three living creatures. They were normal-looking animals, but they knew that there was something special within themselves</p>
+        <p>One day fate put them to meet each other and they decided to find their true selves and awaken the land</p>
+        <p>They then started their wonderful adventure with lots of fun and surprises</p>
+    <div class="sep"></div>
     */
     
