@@ -80,6 +80,13 @@ button.cta{
     padding: 20px, 30px;
     border-radius: 10px;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+a.cta:active,
+button.cta:active{
+    opacity: .7;
 }
 a.cta.alt,
 button.cta.alt{
@@ -154,12 +161,12 @@ p{
 }
 
 .sep{
-    height:1px;
+    width: 470px;
+    height:5px;
     margin-right: 100px;
-    margin-left: 100px;
+    margin-left: 600px;
     margin-top: 50px;
     background:#717171;
-    
     border-bottom:1px solid #313030;
 }
 .story h3{
@@ -193,6 +200,24 @@ p{
 .nb-list li.yellow{
     background-color: #f1c408;
     color: black;
+}
+.animal-team-img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    color: rgba(0,0,0,.4);
+    font-size: 19px;
+    margin: 85px 0 45px;
+    font-weight: bold;
+}
+footer a{
+    color: rgba(0,0,0,.4);
+}
+.popup{
+    display: none;
 }
 /*
 <div class="sep"></div>
