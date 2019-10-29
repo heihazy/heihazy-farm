@@ -70,7 +70,7 @@ h4 {
     height: 359px;
     position: absolute;
     top: 117px;
-    right: 250px;
+    right: 200px;
     transform: rotate(-15deg);
 }
 
@@ -81,7 +81,7 @@ h4 {
     height: 371px;
     position: absolute;
     top: 200px;
-    right: 300px;
+    right: 250px;
 }
 
 .mouse-character {
@@ -91,7 +91,7 @@ h4 {
     height: 378px;
     position: absolute;
     top: 200px;
-    right: 109px;
+    right: 69px;
 }
 
 a.cta, button.cta {
