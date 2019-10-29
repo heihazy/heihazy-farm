@@ -12,9 +12,6 @@ body, html {
     .hero-banner h3 {
         font-size: 20px;
     }
-    .character {
-        background-size: 80%;
-    }
 }
 
 h1 {
@@ -73,7 +70,7 @@ h4 {
     height: 359px;
     position: absolute;
     top: 117px;
-    right: 200px;
+    right: 250px;
     transform: rotate(-15deg);
 }
 
@@ -84,7 +81,7 @@ h4 {
     height: 371px;
     position: absolute;
     top: 200px;
-    right: 250px;
+    right: 300px;
 }
 
 .mouse-character {
@@ -94,7 +91,7 @@ h4 {
     height: 378px;
     position: absolute;
     top: 200px;
-    right: 69px;
+    right: 109px;
 }
 
 a.cta, button.cta {
