@@ -5,6 +5,12 @@ body, html {
     margin: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .hero-banner {
+        
+    }
+}
+
 h1 {
     font-weight: 800;
     font-size: 50px;
@@ -32,7 +38,7 @@ h4 {
 
 .hero-banner {
     background-color: #18B426;
-    min-height: 80vh;
+    min-height: 600px;
     padding: 50px 20px;
     box-sizing: border-box;
     position: relative;
@@ -263,7 +269,8 @@ footer a {
     left: 0;
     z-index: 2;
 }
-.show{
+
+.show {
     display: block;
 }
 
@@ -289,10 +296,12 @@ footer a {
     margin-top: -250px;
     margin-left: -480px;
 }
-.popup h2{
+
+.popup h2 {
     margin: 10px 0 20px;
 }
-.popup .cta{
+
+.popup .cta {
     margin-top: 40px;
 }
 
@@ -312,24 +321,27 @@ footer a {
     text-indent: -999px;
     cursor: pointer;
 }
-.popup .row:after{
+
+.popup .row:after {
     content: '';
     display: table;
     clear: both;
 }
-.popup .item{
+
+.popup .item {
     float: left;
     width: 400px;
     margin-left: 40px;
     text-align: left;
 }
 
-.popup .item label{
+.popup .item label {
     display: block;
     font-size: 20px;
     font-weight: bold;
 }
-.popup .item input[type='text']{
+
+.popup .item input[type='text'] {
     display: block;
     font-size: 30px;
     font-weight: bold;
